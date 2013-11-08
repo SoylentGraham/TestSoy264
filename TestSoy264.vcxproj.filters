@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\memheap.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCL.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCLBuffer.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCLImage.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCLKernel.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCLMemoryObject.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCLProgram.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\ofCommandLineArgs.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\ofLine.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\ofPlane.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\ofShape.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\SoyApp.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\SoyDebug.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\SoyMath.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\SoyOpenCl.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\SoyPacket.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\SoyRef.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\SoyRender.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\SoyThread.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\SoyTypes.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofVisStudioLoggerChannel\src\ofxVisStudioLoggerChannel.cpp">
+      <Filter>ofVisualStudioChannelLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ofxSoylent">
+      <UniqueIdentifier>{32666432-9b29-4f94-b79e-aa325c739f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ofVisualStudioChannelLogger">
+      <UniqueIdentifier>{5450a0d9-d2e5-461e-8e3f-cf9d0b67e2a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\array.hpp">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\bufferarray.hpp">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\chartype.hpp">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\configure.hpp">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\heaparray.hpp">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\memheap.hpp">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCL.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCLBuffer.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCLImage.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCLKernel.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCLMemoryObject.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCLProgram.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\ofCommandLineArgs.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\ofLine.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\ofPlane.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\ofShape.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\ofxSoylent.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SortArray.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyApp.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyDebug.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyEnum.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyMath.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyOpenCl.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyPacket.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyPair.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyRef.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyRender.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyState.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyState.hpp">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyThread.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyTime.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyTypes.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\string.hpp">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofVisStudioLoggerChannel\src\ofxVisStudioLoggerChannel.h">
+      <Filter>ofVisualStudioChannelLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Openframeworks.props" />
+    <None Include="ofxSoylent.props" />
+  </ItemGroup>
+</Project>

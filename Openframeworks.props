@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\openframeworks3\libs\openFrameworks;..\openframeworks3\libs\openFrameworks\graphics;..\openframeworks3\libs\openFrameworks\app;..\openframeworks3\libs\openFrameworks\sound;..\openframeworks3\libs\openFrameworks\utils;..\openframeworks3\libs\openFrameworks\communication;..\openframeworks3\libs\openFrameworks\video;..\openframeworks3\libs\openFrameworks\types;..\openframeworks3\libs\openFrameworks\math;..\openframeworks3\libs\openFrameworks\3d;..\openframeworks3\libs\openFrameworks\gl;..\openframeworks3\libs\openFrameworks\events;..\openframeworks3\libs\glut\include;..\openframeworks3\libs\rtAudio\include;..\openframeworks3\libs\quicktime\include;..\openframeworks3\libs\freetype\include;..\openframeworks3\libs\freetype\include\freetype2;..\openframeworks3\libs\freeImage\include;..\openframeworks3\libs\fmodex\include;..\openframeworks3\libs\videoInput\include;..\openframeworks3\libs\glew\include\;..\openframeworks3\libs\glu\include;..\openframeworks3\libs\tess2\include;..\openframeworks3\libs\cairo\include\cairo;..\openframeworks3\libs\poco\include;..\..\..\addons;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\openframeworks3\libs\glut\lib\vs2010;..\openframeworks3\libs\rtAudio\lib\vs2010;..\openframeworks3\libs\FreeImage\lib\vs2010;..\openframeworks3\libs\freetype\lib\vs2010;..\openframeworks3\libs\quicktime\lib\vs2010;..\openframeworks3\libs\fmodex\lib\vs2010;..\openframeworks3\libs\videoInput\lib\vs2010;..\openframeworks3\libs\cairo\lib\vs2010;..\openframeworks3\libs\glew\lib\vs2010;..\openframeworks3\libs\glu\lib\vs2010;..\openframeworks3\libs\Poco\lib\vs2010;..\openframeworks3\libs\tess2\lib\vs2010;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /e /i /y "..\openframeworks3\export\vs2010\*.dll" "$(ProjectDir)bin"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

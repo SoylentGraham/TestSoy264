@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7FD42DF7-442E-479A-BA76-D0022F99702A}</ProjectGuid>
+    <RootNamespace>TestSoy264</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\openframeworks3\libs\openFrameworksCompiled\project\vs2010\openFrameworksRelease.props" />
+    <Import Project="Openframeworks.props" />
+    <Import Project="ofxSoylent.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\openframeworks3\libs\openFrameworksCompiled\project\vs2010\openFrameworksDebug.props" />
+    <Import Project="Openframeworks.props" />
+    <Import Project="ofxSoylent.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bin\</OutDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bin\</OutDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_debug</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)</TargetName>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(AMDAPPSDKROOT)\include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(GSTREAMER_INCLUDE);$(AMDAPPSDKROOT)\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(GSTREAMER_LIB);$(LibraryPath)</LibraryPath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\gstreamer-sdk\0.10\x86\bin;$(ExecutablePath)</ExecutablePath>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\gstreamer-sdk\0.10\x86\bin;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib</ReferencePath>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;POCO_STATIC;CAIRO_WIN32_STATIC_BUILD;DISABLE_SOME_FLOATING_POINT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_debugInfo.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+      <StackReserveSize>8388608</StackReserveSize>
+      <AdditionalDependencies>OpenCL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;POCO_STATIC;CAIRO_WIN32_STATIC_BUILD;DISABLE_SOME_FLOATING_POINT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+      <StackReserveSize>8388608</StackReserveSize>
+      <AdditionalDependencies>OpenCL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_debugInfo_release.pdb</ProgramDatabaseFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ofVisStudioLoggerChannel\src\ofxVisStudioLoggerChannel.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\memheap.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCL.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCLBuffer.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCLImage.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCLKernel.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCLMemoryObject.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\MSAOpenCLProgram.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\ofCommandLineArgs.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\ofLine.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\ofPlane.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\ofShape.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\SoyApp.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\SoyDebug.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\SoyMath.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\SoyOpenCl.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\SoyPacket.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\SoyRef.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\SoyRender.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\SoyThread.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\SoyTypes.cpp" />
+    <ClCompile Include="src\TApp.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ofVisStudioLoggerChannel\src\ofxVisStudioLoggerChannel.h" />
+    <ClInclude Include="..\ofxSoylent\src\array.hpp" />
+    <ClInclude Include="..\ofxSoylent\src\bufferarray.hpp" />
+    <ClInclude Include="..\ofxSoylent\src\chartype.hpp" />
+    <ClInclude Include="..\ofxSoylent\src\configure.hpp" />
+    <ClInclude Include="..\ofxSoylent\src\heaparray.hpp" />
+    <ClInclude Include="..\ofxSoylent\src\memheap.hpp" />
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCL.h" />
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCLBuffer.h" />
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCLImage.h" />
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCLKernel.h" />
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCLMemoryObject.h" />
+    <ClInclude Include="..\ofxSoylent\src\MSAOpenCLProgram.h" />
+    <ClInclude Include="..\ofxSoylent\src\ofCommandLineArgs.h" />
+    <ClInclude Include="..\ofxSoylent\src\ofLine.h" />
+    <ClInclude Include="..\ofxSoylent\src\ofPlane.h" />
+    <ClInclude Include="..\ofxSoylent\src\ofShape.h" />
+    <ClInclude Include="..\ofxSoylent\src\ofxSoylent.h" />
+    <ClInclude Include="..\ofxSoylent\src\SortArray.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyApp.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyDebug.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyEnum.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyMath.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyOpenCl.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyPacket.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyPair.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyRef.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyRender.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyState.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyState.hpp" />
+    <ClInclude Include="..\ofxSoylent\src\SoyThread.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyTime.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyTypes.h" />
+    <ClInclude Include="..\ofxSoylent\src\string.hpp" />
+    <ClInclude Include="src\main.h" />
+    <ClInclude Include="src\TApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\openframeworks3\libs\openFrameworksCompiled\project\vs2010\openframeworksLib.vcxproj">
+      <Project>{5837595d-aca9-485c-8e76-729040ce4b0b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ofxSoylent.props" />
+    <None Include="Openframeworks.props">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

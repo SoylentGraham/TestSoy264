@@ -1,6 +1,6 @@
 #include "Main.h"
 #include <ofxVisStudioLoggerChannel.h>
-#include "testApp.h"
+#include "TApp.h"
 #include <ofAppGlutWindow.h>
 #include <ofxSoylent.h>
 

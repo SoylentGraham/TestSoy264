@@ -128,10 +128,85 @@
     <ClCompile Include="..\ofxSoylent\src\SoyMath.cpp" />
     <ClCompile Include="..\ofxSoylent\src\SoyOpenCl.cpp" />
     <ClCompile Include="..\ofxSoylent\src\SoyPacket.cpp" />
+    <ClCompile Include="..\ofxSoylent\src\SoyPixels.cpp" />
     <ClCompile Include="..\ofxSoylent\src\SoyRef.cpp" />
     <ClCompile Include="..\ofxSoylent\src\SoyRender.cpp" />
     <ClCompile Include="..\ofxSoylent\src\SoyThread.cpp" />
     <ClCompile Include="..\ofxSoylent\src\SoyTypes.cpp" />
+    <ClCompile Include="..\Soy264\src\Soy264.cpp" />
+    <ClCompile Include="..\Soy264\src\SoyStreamBinaryFile.cpp" />
+    <ClCompile Include="h264-src.tar\src\block.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\cavlc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\common.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\coretrans.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\dspmain.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\input.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\intra_pred.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\in_file.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\in_probe.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\main.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\mbmodes.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\mocomp.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\mode_pred.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\nal.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\params.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\perf.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\playh264.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\residual.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\slice.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\slicehdr.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_analyze.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_avcc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_sei.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_stream.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="src\TApp.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
@@ -162,6 +237,7 @@
     <ClInclude Include="..\ofxSoylent\src\SoyOpenCl.h" />
     <ClInclude Include="..\ofxSoylent\src\SoyPacket.h" />
     <ClInclude Include="..\ofxSoylent\src\SoyPair.h" />
+    <ClInclude Include="..\ofxSoylent\src\SoyPixels.h" />
     <ClInclude Include="..\ofxSoylent\src\SoyRef.h" />
     <ClInclude Include="..\ofxSoylent\src\SoyRender.h" />
     <ClInclude Include="..\ofxSoylent\src\SoyState.h" />
@@ -170,6 +246,71 @@
     <ClInclude Include="..\ofxSoylent\src\SoyTime.h" />
     <ClInclude Include="..\ofxSoylent\src\SoyTypes.h" />
     <ClInclude Include="..\ofxSoylent\src\string.hpp" />
+    <ClInclude Include="..\Soy264\src\Soy264.h" />
+    <ClInclude Include="..\Soy264\src\SoyStreamBinaryFile.h" />
+    <ClInclude Include="h264-src.tar\src\block.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\cavlc.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\cavlc_tables.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\common.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\coretrans.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\h264.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\input.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\intra_pred.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\main.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\mbmodes.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\mocomp.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\mode_pred.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\nal.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\params.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\perf.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\residual.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\slice.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\slicehdr.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_avcc.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_sei.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_stream.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="src\main.h" />
     <ClInclude Include="src\TApp.h" />
   </ItemGroup>
@@ -179,6 +320,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="h264-src.tar\src\createmodule">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="h264-src.tar\src\Makefile">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
     <None Include="ofxSoylent.props" />
     <None Include="Openframeworks.props">
       <SubType>Designer</SubType>

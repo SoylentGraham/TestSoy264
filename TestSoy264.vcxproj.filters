@@ -70,6 +70,87 @@
     <ClCompile Include="src\TApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Soy264\src\Soy264.cpp">
+      <Filter>Soy264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ofxSoylent\src\SoyPixels.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\in_probe.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\input.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\intra_pred.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\main.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\mbmodes.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\mocomp.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\mode_pred.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\nal.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\params.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\perf.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\playh264.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\residual.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\slice.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\slicehdr.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\block.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\cavlc.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\common.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\coretrans.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\dspmain.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="h264-src.tar\src\in_file.c">
+      <Filter>example h264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Soy264\src\SoyStreamBinaryFile.cpp">
+      <Filter>ofxSoylent</Filter>
+    </ClCompile>
+    <ClCompile Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_analyze.c">
+      <Filter>h264 bitstream</Filter>
+    </ClCompile>
+    <ClCompile Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_avcc.c">
+      <Filter>h264 bitstream</Filter>
+    </ClCompile>
+    <ClCompile Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_sei.c">
+      <Filter>h264 bitstream</Filter>
+    </ClCompile>
+    <ClCompile Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_stream.c">
+      <Filter>h264 bitstream</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -80,6 +161,15 @@
     </Filter>
     <Filter Include="ofVisualStudioChannelLogger">
       <UniqueIdentifier>{5450a0d9-d2e5-461e-8e3f-cf9d0b67e2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Soy264">
+      <UniqueIdentifier>{569e2242-49d1-43f8-8e39-c46d2663e301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="example h264">
+      <UniqueIdentifier>{60f666e3-f5bb-49a7-b411-0d80c60206bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h264 bitstream">
+      <UniqueIdentifier>{c9911302-cfda-4228-8553-d42747fb47f6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -191,9 +281,87 @@
     <ClInclude Include="src\TApp.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\Soy264\src\Soy264.h">
+      <Filter>Soy264</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ofxSoylent\src\SoyPixels.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\input.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\intra_pred.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\main.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\mbmodes.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\mocomp.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\mode_pred.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\nal.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\params.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\perf.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\residual.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\slice.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\slicehdr.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\block.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\cavlc.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\cavlc_tables.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\common.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\coretrans.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="h264-src.tar\src\h264.h">
+      <Filter>example h264</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Soy264\src\SoyStreamBinaryFile.h">
+      <Filter>ofxSoylent</Filter>
+    </ClInclude>
+    <ClInclude Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_avcc.h">
+      <Filter>h264 bitstream</Filter>
+    </ClInclude>
+    <ClInclude Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_sei.h">
+      <Filter>h264 bitstream</Filter>
+    </ClInclude>
+    <ClInclude Include="h264bitstream-0.1.9.tar\h264bitstream-0.1.9\h264_stream.h">
+      <Filter>h264 bitstream</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Openframeworks.props" />
     <None Include="ofxSoylent.props" />
+    <None Include="h264-src.tar\src\Makefile">
+      <Filter>example h264</Filter>
+    </None>
+    <None Include="h264-src.tar\src\createmodule">
+      <Filter>example h264</Filter>
+    </None>
   </ItemGroup>
 </Project>
